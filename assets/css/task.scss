@@ -1,0 +1,28 @@
+.task-container {
+  display: flex;
+  width: 400px;
+  height: 500px;
+  background-color: #9db5b2;
+  border-radius: 5%;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    padding: 14px 14px 14px 14px;
+  }
+
+  &__name {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  &__input {
+
+    &-description {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
